@@ -8,7 +8,7 @@ I wrote it after reading a job post about an AI assistant that answers store-emp
 
 ## What it checks
 
-Each case has a question's source snippets (`context`) and the bot's `answer`. The tool flags:
+Each case has the source snippets (`context`) and the bot's `answer`. The tool flags:
 
 - `ungrounded-figure`: a number, price, time or percent in the answer that is not in any snippet.
 - `unsupported-sentence`: a sentence where fewer than 40% of the content words appear in the snippets.
