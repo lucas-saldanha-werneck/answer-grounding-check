@@ -1,0 +1,9 @@
+{
+  "name": "answer-grounding-check",
+  "version": "0.1.0",
+  "description": "Offline check that flags chatbot answers not backed by their source snippets",
+  "type": "module",
+  "bin": { "grounding-check": "src/cli.mjs" },
+  "scripts": { "test": "node --test test/" },
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+# EXAMPLE DATA, invented for this demo. Not from any real store or company.
+{"id":"returns-ok","context":["Items can be returned within 30 days with a receipt.","Opened electronics can be returned within 15 days."],"answer":"You can return items within 30 days if you have a receipt [1]."}
+{"id":"returns-wrong-days","context":["Items can be returned within 30 days with a receipt.","Opened electronics can be returned within 15 days."],"answer":"Opened laptops can be returned within 45 days with a receipt [2]."}
+{"id":"hours-ok","context":["The garden center is open 8:00 to 18:00 Monday to Saturday."],"answer":"The garden center is open from 8:00 to 18:00, Monday to Saturday [1]."}
+{"id":"hours-invented-sunday","context":["The garden center is open 8:00 to 18:00 Monday to Saturday."],"answer":"The garden center is open 8:00 to 18:00 Monday to Saturday [1]. On Sundays it opens at 10:00."}
+{"id":"price-no-source","context":[],"answer":"That drill costs $89.99 and is on sale."}
+{"id":"no-source-honest","context":[],"answer":"I don't know. Please ask your manager."}
+{"id":"off-topic-sentence","context":["Gift cards never expire and cannot be exchanged for cash."],"answer":"Gift cards never expire [1]. Our loyalty program gives members free shipping forever."}
+{"id":"bad-citation","context":["Gift cards never expire and cannot be exchanged for cash."],"answer":"Gift cards cannot be exchanged for cash [3]."}
